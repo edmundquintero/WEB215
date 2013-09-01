@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html data-ng-app>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/contract.css">
+  
+  <script type="text/javascript" src="js/vendor/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="js/vendor/angular.min.js"></script>
+  <script type="text/javascript" src="js/contract.js"></script>
+  <title>WEB-215 Course Contract</title>
+</head>
+
+<body data-ng-controller="ContractCtrl">
+  <div id="contentTitle">
+    <h1>{{ contract.name }} {{ contract.course.prefix }} Course Contract</h1>
+  </div>
+  <div id="MainContent">
+    <button id="editForm">Edit</button>
+    <form id="contentForm" name="contractForm">
+      <fieldset>
+        <legend>Change the fields to see the form update!</legend>
+        <label><span>Name: </span></label>
+        <input type="text" data-ng-model="contract.name">
+        <label>Instructor: </label>
+        <input type="text" data-ng-model="contract.instructor">
+        <label>Course Term: </label>
+        <input type="text" data-ng-model="contract.course.term">
+        <label>Course Prefix: </label>
+        <input type="text" data-ng-model="contract.course.prefix">
+        <label>Course Name: </label>
+        <input id="courseNameInput" type="text" data-ng-model="contract.course.name">
+    </fieldset>
+    </form>
+    <hr />
+    <p>
+      I, <b>{{ contract.name }}</b> agree to abide by the terms of the course contract in my <b>{{ contract.course.term }} {{ contract.course.prefix }} {{ contract.course.name }}</b> with my instructor, <b>{{ contract.instructor }}</b>.
+    </p>
+    <p>
+      I understand that all work that I do on my school and personal website will be publicly available to the world, and will not put information there that is inappropriate for schoolwork, or that I wish to keep private.
+    </p>
+    <p>
+      I also understand that it is my work that counts for attendance, not logins or showing up for class. As such, failure to turn in assignments may show as absences.
+    </p>
+    <p>
+      Signed:<b> {{ contract.name }}, 8/23/2013</b> 
+    </p>
+  </div>
+
+  <footer>
+    <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img src="images/valid_css3.gif" alt="Valid CSS!" />
+    </a>
+    <a href="http://validator.w3.org/check?uri=referer">
+      <img src="images/valid_html5.gif"  alt="Valid HTML 5"/>
+    </a>
+  </p>
+  </footer>
+</body>
+</html>

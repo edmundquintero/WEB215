@@ -1,0 +1,149 @@
+Cats
+[{"color": "Black", "name": "Frank"}, {"color": "Grey", "name": "Sally"}, {"color": "Orange", "name": "Juan Miguel"}]
+
+
+if(catNames.length === Cats.length){
+  for( cat in Cats){
+    Cats[cat].name = catNames[cat];
+  }
+}
+
+
+var catNames=["Frank", "Sally", "Juan Miguel"];
+
+
+console.log(cat1.name);
+"Frank"
+
+
+cat1.name = "Frank";
+
+
+var cat1 = new Cat();
+
+
+Cat.prototype = function(name){
+  this,name = name;
+}
+
+
+for(cat in Cats){
+   Cats[cat].color;
+}
+"Orange" "Grey" "Black"
+
+
+for( cat in Cats){
+   cat;
+}
+"2" "1" "0"
+
+
+for( cat in Cats){
+   cat.color;
+}
+undefined
+
+
+Cats
+[{"color": "Black"}, {"color": "Grey"}, {"color": "Orange"}]
+
+
+for(i=0;i<cats.length;i++){
+  Cats[i] = new Cat(cats[i]);
+}
+{"color": "Orange"}
+
+
+var Cats = [];
+
+
+var Cat = function(color){
+  this.color = color;
+}
+
+
+
+var Cat = function(color){
+  this.color: color
+}
+"Unexpected token :"
+
+
+for(i = 0; i < cats.length; i++){
+  var color = cats[i].toLowerCase();
+  cats[i] = cats[i].charAt(0).toUpperCase() + color.slice(1);
+  cats;
+}
+["Black", "Grey", "Orange"]
+
+
+for(i = 0; i < cats.length; i++){
+  var color = cats[i].toLowerCase();
+  cats[i] = cats[i].charAt(0).toUpperCase() + color.slice(1);
+}
+"Orange"
+
+
+for(i = 0; i < cats.length; i++){
+  var color = cats[i].toLower();
+}
+"Object black has no method 'toLower'"
+
+
+cats
+["black", "grey", "Orange"]
+
+
+cats[2] = "Orange";
+"Orange"
+
+
+cats[2]
+"ornage"
+
+
+var cats = ["black", "grey", "ornage"];
+
+
+a
+true
+
+
+if(a.toString() == b){console.log("they are ==");}else{console.log("they are not ==");}
+"they are =="
+
+
+
+if(a == b.toString()){console.log("they are ==");}else{console.log("they are not ==");}
+"they are not =="
+
+
+if(a == b){console.log("they are ==");}else{console.log("they are not ==");}
+"they are not =="
+
+
+if(a == b){console.log("they are ==");}
+undefined
+
+
+a
+true
+
+
+b
+"true"
+
+
+var b = a.toString();
+
+
+a
+true
+
+a = true;
+
+a
+undefined
+
+var a;
