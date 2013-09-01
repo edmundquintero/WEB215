@@ -1,0 +1,64 @@
+// question: 1 name: typeof output
+::Typeof Output::What would be the value displayed from this statment: console.log(typeof "Cats meow"); ? {
+~Undefined
+#Wrong: The typeof "Cats meow" is a String! JavaScript for Web Developers, page 31.
+~Null
+#Wrong: The typeof "Cats meow" is a String! JavaScript for Web Developers, page 31.
+=String
+~Cats meow
+#Wrong: The typeof "Cats meow" is a String! JavaScript for Web Developers, page 31.
+~Object
+#Wrong: The typeof "Cats meow" is a String! JavaScript for Web Developers, page 31.
+}
+
+// question: 2 name: DOM Definition
+::DOM Definition:: Whats does DOM stand for?{
+~Day Of Mayo
+#Wrong: DOM mean Document Object Model. JavaScript for Web Developers, page 6.
+~Depends On Memory
+#Wrong: DOM mean Document Object Model. JavaScript for Web Developers, page 6.
+~Dominion Of Many
+#Wrong: DOM mean Document Object Model. JavaScript for Web Developers, page 6.
+=Document Object Model
+~Short for Dominick
+#Wrong: DOM mean Document Object Model. JavaScript for Web Developers, page 6.
+}
+
+// question: 3 name: Adding Javascript
+::Adding Javascript:: What element is used as the primary method of inserting Javascript into HTML?{
+~<head>
+#Wrong: <script> is used to add JS to a HTML page. JavaScript for Web Developers, page 13.
+=<script>
+~<html>
+#Wrong: <script> is used to add JS to a HTML page. JavaScript for Web Developers, page 13.
+~<div>
+#Wrong: <script> is used to add JS to a HTML page. JavaScript for Web Developers, page 13.
+~<ECMA>
+#Wrong: <script> is used to add JS to a HTML page. JavaScript for Web Developers, page 13.
+}
+
+// question: 4 name: Strings and Numbers
+::Strings and Numbers:: What is b in var b == "4" + 4;{
+~16
+#Wrong: 4 is converted to a string and concatenated to the "4". JavaScript for Web Developers, page 62.
+="44"
+~8
+#Wrong: 4 is converted to a string and concatenated to the "4". JavaScript for Web Developers, page 62.
+~"4"
+#Wrong: 4 is converted to a string and concatenated to the "4". JavaScript for Web Developers, page 62.
+~"40"
+#Wrong: 4 is converted to a string and concatenated to the "4". JavaScript for Web Developers, page 62.
+}
+
+// question: 5 name: Number Conversion
+::Number Conversion:: 'Number("11");' returns 11. Whats does 'Number("howdy");' return?{
+~5
+#Wrong: "howdy" can not be converted into a number! It returns NaN (Not a Number). JavaScript for Web Developers, page 39.
+~1015
+#Wrong: "howdy" can not be converted into a number! It returns NaN (Not a Number). JavaScript for Web Developers, page 39.
+~"Sleventeen"
+#Wrong: "howdy" can not be converted into a number! It returns NaN (Not a Number). JavaScript for Web Developers, page 39.
+~"HOWDY"
+#Wrong: "howdy" can not be converted into a number! It returns NaN (Not a Number). JavaScript for Web Developers, page 39.
+=NaN
+}
