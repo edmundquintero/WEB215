@@ -1,0 +1,27 @@
+/*Bootstrap rule Fixes*/
+.hero-unit{
+  margin-bottom: 0px;
+  background-color: #7F9EE7 ;
+  color:#222D46;
+}
+body{
+  color: #041438;
+}
+
+a{
+  color:#17306A;
+}
+/*Application Rules*/
+.color-item{
+  height: 100px;
+  border-radius: 3px;
+}
+.primary-1 { background-color: #17306A }
+.primary-2 { background-color: #222D46 }
+.primary-3 { background-color: #041438 }
+.primary-4 { background-color: #7F9EE7 }
+.primary-5 { background-color: #BBC8E7 }
+
+#side-bar{
+  border-right: 1px solid rgb(212,212,212);
+}
