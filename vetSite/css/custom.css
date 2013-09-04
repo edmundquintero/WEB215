@@ -13,6 +13,9 @@ a{
   color:#17306A;
 }
 /*Application Rules*/
+#site-content{
+  margin-bottom: 100px;
+}
   /*Main content*/
 .color-item{
   height: 100px;
@@ -41,6 +44,14 @@ p.desc{
   border-radius: 3px;
   margin-bottom: 10px;
 }
+
+/*Footer*/
+.footer {
+  padding: 20px 0;
+}
+
+
+
 
 /*Remove right border in mobile*/
 @media (max-width: 767px) {
