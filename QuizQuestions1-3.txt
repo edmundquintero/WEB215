@@ -1,10 +1,11 @@
 // question: 1 name: typeof output
-::Typeof Output::What would be the value displayed from this statment: console.log(typeof "Cats meow"); ? {
+::Typeof Output::'typeof' returns the type of a variable. What would be the value of this statment: typeof "Cats meow" ? {
 ~Undefined
 #Wrong: The typeof "Cats meow" is a String! JavaScript for Web Developers, page 31.
 ~Null
 #Wrong: The typeof "Cats meow" is a String! JavaScript for Web Developers, page 31.
 =String
+#Correct! "Cats meow" is a String type variable.
 ~Cats meow
 #Wrong: The typeof "Cats meow" is a String! JavaScript for Web Developers, page 31.
 ~Object
@@ -20,6 +21,7 @@
 ~Dominion Of Many
 #Wrong: DOM mean Document Object Model. JavaScript for Web Developers, page 6.
 =Document Object Model
+#Correct! DOM stands for the Document Object Model.
 ~Short for Dominick
 #Wrong: DOM mean Document Object Model. JavaScript for Web Developers, page 6.
 }
@@ -29,6 +31,7 @@
 ~<head>
 #Wrong: <script> is used to add JS to a HTML page. JavaScript for Web Developers, page 13.
 =<script>
+#Correct! The <script> tag is used to tell the browser the included code is not HTML.
 ~<html>
 #Wrong: <script> is used to add JS to a HTML page. JavaScript for Web Developers, page 13.
 ~<div>
@@ -42,6 +45,7 @@
 ~16
 #Wrong: 4 is converted to a string and concatenated to the "4". JavaScript for Web Developers, page 62.
 ="44"
+#Correct! Because the first "4" is a string the string value of the second 4 is retrieved and concatenated returning "44".
 ~8
 #Wrong: 4 is converted to a string and concatenated to the "4". JavaScript for Web Developers, page 62.
 ~"4"
@@ -61,4 +65,5 @@
 ~"HOWDY"
 #Wrong: "howdy" can not be converted into a number! It returns NaN (Not a Number). JavaScript for Web Developers, page 39.
 =NaN
+#Correct! "howdy" is 'Not a Number' and returns NaN.
 }
