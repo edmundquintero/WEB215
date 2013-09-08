@@ -31,7 +31,7 @@
 ~<head>
 #Wrong: <script> is used to add JS to a HTML page. JavaScript for Web Developers, page 13.
 =<script>
-#Correct! The <script> tag is used to tell the browser the included code is not HTML.
+#Correct! The <script> tag is used to include JS.
 ~<html>
 #Wrong: <script> is used to add JS to a HTML page. JavaScript for Web Developers, page 13.
 ~<div>
