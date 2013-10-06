@@ -1,0 +1,69 @@
+// question: 1 name: Variable Declaration
+::Variable Declaration:: What prefix is used to declare a variable in the immediate scope? {
+~Undefined
+#Wrong: 'var' is used to declare a new variable! JavaScript for Web Developers, page 94.
+~Null
+#Wrong: 'var' is used to declare a new variable! JavaScript for Web Developers, page 94.
+=var
+#Correct! "var" is used to declare a new variable!
+~new
+#Wrong: 'var' is used to declare a new variable! JavaScript for Web Developers, page 94.
+~'='
+#Wrong: 'var' is used to declare a new variable! JavaScript for Web Developers, page 94.
+}
+
+// question: 2 name: Execution Context
+::Execution Context:: What is another word for 'execution context'?{
+~The big EC
+#Wrong: 'scope' id another word for execution context. JavaScript for Web Developers, page 92.
+~memory
+#Wrong: 'scope' id another word for execution context. JavaScript for Web Developers, page 92.
+~instance
+#Wrong: 'scope' id another word for execution context. JavaScript for Web Developers, page 92.
+=scope
+#Correct! 'scope' id another word for execution context.
+~pickle
+#Wrong: 'scope' id another word for execution context. JavaScript for Web Developers, page 92.
+}
+
+// question: 3 name: Value Types
+::Value Types::What type of value has a set size and is stored in memory on the stack?{
+~Placebo
+#Wrong: Primitive values are a set size and stored on the stack. JavaScript for Web Developers, page 85.
+=Primitive
+#Correct! Primitive values are a set size and stored on the stack.
+~Agressive
+#Wrong: Primitive values are a set size and stored on the stack. JavaScript for Web Developers, page 85.
+~HTML
+#Wrong: Primitive values are a set size and stored on the stack. JavaScript for Web Developers, page 85.
+~Blue
+#Wrong: Primitive values are a set size and stored on the stack. JavaScript for Web Developers, page 85.
+}
+
+// question: 4 name: Value Reclamation
+::Value Reclamation:: Values the go out of scope will automatically be marked for reclamation and will be deleted by what process?{
+~Destruction
+#Wrong: Garbage Collection is the process of removing unused values from memory. JavaScript for Web Developers, page 96.
+=Garbage-Collection
+#Correct! Garbage Collection is the process of removing unused values from memory. 
+~Clean-up
+#Wrong: Garbage Collection is the process of removing unused values from memory. JavaScript for Web Developers, page 96.
+~Compiling
+#Wrong: Garbage Collection is the process of removing unused values from memory. JavaScript for Web Developers, page 96.
+~Execution
+#Wrong: Garbage Collection is the process of removing unused values from memory. JavaScript for Web Developers, page 96.
+}
+
+// question: 5 name: Primitive Type
+::Primitive Type:: What operator is used to determine a value's primitive type?{
+~inspect
+#Wrong: typeof returns the primitive value's type.. JavaScript for Web Developers, page 89.
+~desc
+#Wrong: typeof returns the primitive value's type.. JavaScript for Web Developers, page 89.
+~check
+#Wrong: typeof returns the primitive value's type.. JavaScript for Web Developers, page 89.
+~define
+#Wrong: typeof returns the primitive value's type.. JavaScript for Web Developers, page 89.
+=typeof
+#Correct! typeof returns the primitive value's type.
+}
