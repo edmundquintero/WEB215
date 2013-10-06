@@ -1,0 +1,69 @@
+// question: 1 name: Object Patterns
+::Object Patterns:: What three patterns are used to create objects in place of 'classes'? {
+~Undefined, String and Function()
+#Wrong: Factory, Constructor and Prototype patterns are used to creat objects in an Object Oriented style. JavaScript for Web Developers, page 180-184.
+~Null, Undefined and NaN
+#Wrong: Factory, Constructor and Prototype patterns are used to creat objects in an Object Oriented style. JavaScript for Web Developers, page 180-184.
+=Factory, Constructor and Prototype
+#Correct! Factory, Constructor and Prototype patterns are used to creat objects in an Object Oriented style.
+~new, var and create
+#Wrong: Factory, Constructor and Prototype patterns are used to creat objects in an Object Oriented style. JavaScript for Web Developers, page 180-184.
+~Make, Build and Configure
+#Wrong: Factory, Constructor and Prototype patterns are used to creat objects in an Object Oriented style. JavaScript for Web Developers, page 180-184.
+}
+
+// question: 2 name: Sharing Methods
+::Sharing Methods:: What is the term for sharing properties and methods between two different objects?{
+~Sharing
+#Wrong: Inheritance is the term for being able to use the properties and methods of another object. JavaScript for Web Developers, page 201.
+~Dealing
+#Wrong: Inheritance is the term for being able to use the properties and methods of another object. JavaScript for Web Developers, page 201.
+~Creating
+#Wrong: Inheritance is the term for being able to use the properties and methods of another object. JavaScript for Web Developers, page 201.
+=Inheritance
+#Correct! Inheritance is the term for being able to use the properties and methods of another object.
+~Yodeling
+#Wrong: Inheritance is the term for being able to use the properties and methods of another object. JavaScript for Web Developers, page 201.
+}
+
+// question: 3 name: Prototype Parenting
+::Prototype Parenting::What operator can be used to determine if an instance is used with a constructor that appears in its prototype chain?{
+~Parent
+#Wrong: Instanceof will return true if an instance is used with a constructor that appears in its prototype chain. JavaScript for Web Developers, page 204.
+=Instanceof
+#Correct! Instanceof will return true if an instance is used with a constructor that appears in its prototype chain.
+~Creator
+#Wrong: Instanceof will return true if an instance is used with a constructor that appears in its prototype chain. JavaScript for Web Developers, page 204.
+~Maker
+#Wrong: Instanceof will return true if an instance is used with a constructor that appears in its prototype chain. JavaScript for Web Developers, page 204.
+~UMyDad
+#Wrong: Instanceof will return true if an instance is used with a constructor that appears in its prototype chain. JavaScript for Web Developers, page 204.
+}
+
+// question: 4 name: Prototype Children
+::Prototype Children:: What operator can be run on any prototype to find out if they are a prototype of an instance?{
+~getKids
+#Wrong: isPrototypeOf will return true if the object it is being called on is a prototype of an instance passed as a variable. JavaScript for Web Developers, page 205.
+=isPrototypeOf
+#Correct! Garbage Collection is the process of removing unused values from memory. 
+~children
+#Wrong: isPrototypeOf will return true if the object it is being called on is a prototype of an instance passed as a variable. JavaScript for Web Developers, page 205.
+~owner
+#Wrong: isPrototypeOf will return true if the object it is being called on is a prototype of an instance passed as a variable. JavaScript for Web Developers, page 205.
+~next
+#Wrong: isPrototypeOf will return true if the object it is being called on is a prototype of an instance passed as a variable. JavaScript for Web Developers, page 205.
+}
+
+// question: 5 name: Inheritance Method
+::Inheritance Method:: Inheritance in JavaScript is implemented primarily using the concept of _________ chaining?{
+~Balln'
+#Wrong: Prototype chaining allows the use on inheritance in Javascript. JavaScript for Web Developers, page 215.
+~Group
+#Wrong: Prototype chaining allows the use on inheritance in Javascript. JavaScript for Web Developers, page 215.
+~Cart
+#Wrong: Prototype chaining allows the use on inheritance in Javascript. JavaScript for Web Developers, page 215.
+~Coagulative
+#Wrong: Prototype chaining allows the use on inheritance in Javascript. JavaScript for Web Developers, page 215.
+=Prototype
+#Correct! Prototype chaining allows the use on inheritance in Javascript.
+}

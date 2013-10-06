@@ -57,13 +57,13 @@
 // question: 5 name: Primitive Type
 ::Primitive Type:: What operator is used to determine a value's primitive type?{
 ~inspect
-#Wrong: typeof returns the primitive value's type.. JavaScript for Web Developers, page 89.
+#Wrong: typeof returns the primitive value's type. JavaScript for Web Developers, page 89.
 ~desc
-#Wrong: typeof returns the primitive value's type.. JavaScript for Web Developers, page 89.
+#Wrong: typeof returns the primitive value's type. JavaScript for Web Developers, page 89.
 ~check
-#Wrong: typeof returns the primitive value's type.. JavaScript for Web Developers, page 89.
+#Wrong: typeof returns the primitive value's type. JavaScript for Web Developers, page 89.
 ~define
-#Wrong: typeof returns the primitive value's type.. JavaScript for Web Developers, page 89.
+#Wrong: typeof returns the primitive value's type. JavaScript for Web Developers, page 89.
 =typeof
 #Correct! typeof returns the primitive value's type.
 }
